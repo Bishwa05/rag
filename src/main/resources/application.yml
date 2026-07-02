@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rag
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+rag:
+  chunk-size: 500
+  chunk-overlap: 50
+  max-results: 4
